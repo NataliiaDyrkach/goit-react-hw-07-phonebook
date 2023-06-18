@@ -10,7 +10,7 @@ function ContactList() {
 
   const dispatch = useDispatch();
 
-  const deleteSelectedContact = ({id}) => dispatch(deleteContact(id));
+  const deleteSelectedContact = (id) => dispatch(deleteContact(id));
 
   const filterdContacts = () => {
     const normalizedFilter = filter.toLowerCase();

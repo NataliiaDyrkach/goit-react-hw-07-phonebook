@@ -12,9 +12,7 @@ function App() {
     dispatch(fetchContacts());
   }, [dispatch]);
 
-  console.log(dispatch(fetchContacts()));
-
-  return (
+    return (
     <div>
       <ContactForm />
 
